@@ -13,8 +13,3 @@
   ;; set overlay style to default
   (setq mozc-candidate-style 'echo-area)
   )
-
-(defun dd/toggle-mozc-mode ()
-  (interactive)
-  (mozc-mode)
-  (dd/toggle-cursor-color))
