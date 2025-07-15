@@ -43,7 +43,7 @@
       user-mail-address "lorenzofagiani23@gmail.com")
 
 ;; int helper to load packages
-(load-file "~/.emacs.d/init-helper.el")
+(load-file "~/.config/emacs/init-helper.el")
 
 ;; all the packages have been loaded, and the init procedure is complete
 (setq EMACS_PACKAGES_LOADED 1)
