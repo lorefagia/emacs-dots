@@ -8,6 +8,7 @@
 (load-file "~/.config/emacs/my-stuff/org-mode-packages.el")
 (load-file "~/.config/emacs/my-stuff/proglang-packages.el")
 (load-file "~/.config/emacs/my-stuff/python-packages.el")
+(load-file "~/.config/emacs/my-stuff/rust-packages.el")
 (load-file "~/.config/emacs/my-stuff/web-packages.el")
 
 ;; git
