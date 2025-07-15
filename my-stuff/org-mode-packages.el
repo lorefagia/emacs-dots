@@ -48,15 +48,12 @@
 (use-package org-bullets
   :ensure t
   :after org
-  :config
-  (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+  )
 
 ;; pitch-mode
 (use-package org-variable-pitch
   :ensure t
   :after org
-  :config
-  (add-hook 'org-mode-hook 'org-variable-pitch-minor-mode)
   )
 
 ;; minimalist presentation environment
@@ -69,9 +66,6 @@
 (use-package valign
   :ensure t
   :after (org org-present)
-  :config
-  (add-hook 'org-mode-hook #'valign-mode)
-  (add-hook 'org-present-mode-hook #'valign-mode)  
   )
 
 (use-package visual-fill-column
